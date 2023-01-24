@@ -19,6 +19,6 @@ function calcular(){
     p1.innerHTML = "Calculando a média final de " + nome;
     p2.innerHTML = "As notas obtidas foram: N1 = " + n1 + " // N2 = " + n2;
     p3.innerHTML = "A média de " + nome + " Foi: " + media;
-   
+    
 
 }
