@@ -4,8 +4,8 @@ let result = document.getElementById('result')
 
 function start(){
     let palpite = Number(prompt('Digite seu palpite'))
-    
 
+    
     if(palpite < numberRandom){
         result.innerHTML += `<p> O número ${palpite} é <strong> MENOR</strong> que o número secreto</p>`
     }else if (palpite > numberRandom){
@@ -17,3 +17,4 @@ function start(){
         result.innerHTML += `<p>Valor inválido</strong></p>`
     }
 }
+
