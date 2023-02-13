@@ -22,6 +22,8 @@ function calc() {
         result.innerHTML = `<p> ${n1} x ${n2} = <b>${multiplicacao}<b></p>`
     }else if (option === 4){
         result.innerHTML = `<p> ${n1}/${n2} = <b>${divisao}<b></p>`
+    }else{
+        result.innerHTML = `<p>Valor de seleção para operação errado, digite novamente</p>`
     }
 
 
