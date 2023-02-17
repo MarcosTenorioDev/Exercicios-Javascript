@@ -1,6 +1,5 @@
 function calc() {
-    let n1 = Number(prompt('Digite um número: '))
-    let n2 = Number(prompt('Digite outro número: '))
+   
     let result = document.getElementById('result')
     let soma = n1 + n2
     let subtracao = n1 - n2
@@ -23,8 +22,30 @@ function calc() {
     }else if (option === 4){
         result.innerHTML = `<p> ${n1}/${n2} = <b>${divisao}<b></p>`
     }else{
-        result.innerHTML = `<p>Valor de seleção para operação errado, digite novamente</p>`
+        result.innerHTML = `<p>Valor de seleção para operacao errado, digite novamente</p>`
     }
 
-
 }
+/*let result = document.getElementById('result')
+let n1 = Number(prompt('Digite um número: '))
+let n2 = Number(prompt('Digite outro número: '))
+let operacao = Number(prompt(`Valores informados: ${n1} e ${n2}
+O que vamos fazer?
+[1] Somar
+[2] Subtrair
+[3] Multiplicar
+[4] Dividir`))
+
+function calc(n1, n2, operacao){
+
+    if(operacao === 1){
+        return `<p> ${n1} + ${n2} = ${n1+n2} </p>`
+    }else if (operacao === 2){
+        return `<p> ${n1} - ${n2} = ${n1-n2} </p>`
+    }else if (operacao === 3){
+        return `<p> ${n1} x ${n2} = ${n1*n2} </p>`
+    }else if (operacao === 4){
+        return `<p> ${n1}/${n2} = ${n1/n2} </p>`
+    }else `Valor de operacao inválido`
+}
+    result.innerHTML = calc(n1, n2, operacao)*/
