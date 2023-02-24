@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício javascript 020</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Finn vs Rei gelado:</h1>
+
+    <div class="main">
+        <div class="areaFinn">
+            <div id="FinnImage">
+                <marquee behavior="alternate" direction="right">
+                    <img src="images/finn.png" alt="" class="pixelArt">
+                </marquee>
+            </div>   
+
+            <div class="damageInputs">
+                <div>
+                    <input type="text" placeholder="Dano de ataque do Finn" id="finnAtack1">
+                    <input type="button" value="Clique aqui" onclick="getDamage1Finn()">
+                </div>
+                <div>
+                    <input type="text" placeholder="Dano de ataque do Finn" id="finnAtack2">
+                    <input type="button" value="Clique aqui" onclick="getDamage2Finn()">
+                </div>
+                <div>
+                    <input type="text" placeholder="Dano de ataque do Finn" id="finnAtack3">
+                    <input type="button" value="Clique aqui" onclick="getDamage3Finn()">
+                </div>
+                <div>
+                    <input type="text" placeholder="Dano de ataque do Finn" id="finnAtack4">
+                    <input type="button" value="Clique aqui" onclick="getDamage4Finn()">
+                </div>
+
+                <div id="historyFinn">
+                    <p id="atack1ResultFinn"></p>
+                    <p id="atack2ResultFinn"></p>
+                    <p id="atack3ResultFinn"></p>
+                    <p id="atack4ResultFinn"></p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="areaReiGelado">
+            <div id="reiGeladoImage">
+                <marquee behavior="alternate" direction="left">
+                    <div id="reiGeladoImage">
+                        <img src="images/reiGelado.png" alt="" class="pixelArt">
+                    </div>
+                </marquee>
+    
+            </div>
+            
+            <div class="damageInputs">  
+                <div>   
+                    <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack1">
+                    <input type="button" value="Clique aqui" onclick="">
+                </div>
+                <div>   
+                    <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack2">
+                    <input type="button" value="Clique aqui" onclick="">
+                </div>
+                <div>   
+                    <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack3">
+                    <input type="button" value="Clique aqui" onclick="">
+                </div>
+                <div>   
+                    <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack4">
+                    <input type="button" value="Clique aqui" onclick="">
+                </div>
+
+                <div id="historyReiGelado">
+                    <p class="atack1ResultReiGelado"></p>
+                    <p class="atack2ResultReiGelado"></p>
+                    <p class="atack3ResultReiGelado"></p>
+                    <p class="atack4ResultReiGelado"></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

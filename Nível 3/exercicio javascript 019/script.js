@@ -31,5 +31,5 @@ function start(){
     }
 
     result.innerHTML = `<p>Você selecionou a musica: ${music}</p>`
-
+    
 }
