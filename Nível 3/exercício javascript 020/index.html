@@ -59,30 +59,35 @@
             <div class="damageInputs">  
                 <div>   
                     <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack1">
-                    <input type="button" value="Clique aqui" onclick="">
+                    <input type="button" value="Clique aqui" onclick="getDamage1ReiGelado()">
                 </div>
                 <div>   
                     <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack2">
-                    <input type="button" value="Clique aqui" onclick="">
+                    <input type="button" value="Clique aqui" onclick="getDamage2ReiGelado()">
                 </div>
                 <div>   
                     <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack3">
-                    <input type="button" value="Clique aqui" onclick="">
+                    <input type="button" value="Clique aqui" onclick="getDamage3ReiGelado()">
                 </div>
                 <div>   
                     <input type="text" placeholder="Dano de ataque do Rei Gelado" id="reiGeladoAtack4">
-                    <input type="button" value="Clique aqui" onclick="">
+                    <input type="button" value="Clique aqui" onclick="getDamage4ReiGelado()">
                 </div>
 
                 <div id="historyReiGelado">
-                    <p class="atack1ResultReiGelado"></p>
-                    <p class="atack2ResultReiGelado"></p>
-                    <p class="atack3ResultReiGelado"></p>
-                    <p class="atack4ResultReiGelado"></p>
+                    <p id="atack1ResultReiGelado"></p>
+                    <p id="atack2ResultReiGelado"></p>
+                    <p id="atack3ResultReiGelado"></p>
+                    <p id="atack4ResultReiGelado"></p>
                 </div>
             </div>
             
         </div>
+    </div>
+    <div id="areaResult">
+        <h3>Resultado Final</h3>
+        <button onclick="battle()">Checar resultado</button>
+        <p id="finalResult"></p>
     </div>
 
 
