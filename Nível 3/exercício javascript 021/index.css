@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#addSinger{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+}
+.music{
+    flex-grow: 2;
+}
