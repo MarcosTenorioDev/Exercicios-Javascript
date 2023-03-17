@@ -17,5 +17,5 @@ class carro {
 const fiat = new carro('fiat', 'vermelho', 1/12)
 const astra = new carro('astra', 'preto', 1/9)
 
-console.log('stastas' + astra.calcularGastoDePercurso(70, 5).toFixed(2)) 
+console.log(astra.calcularGastoDePercurso(70, 5).toFixed(2)) 
 console.log(fiat.calcularGastoDePercurso(70, 5).toFixed(2)) 

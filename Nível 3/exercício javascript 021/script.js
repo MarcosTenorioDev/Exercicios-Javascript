@@ -1,31 +1,12 @@
- let arrayMusic = [];
+let amostra = () => (12 , 23 , 79).split(',');
 
- function addDataToArray(){
-     let musicData = readData();
-     addData(musicData);
-
-     console.log(musicData)
-     console.log(arrayMusic)
-
- }
-
- function addData(musicData){
-     arrayMusic.push(musicData)
-
- }
-
-
- function readData(){
-    
-     let musicData = {};
-
-     musicData.singer = document.querySelector('input#singer').value;
-     musicData.musicName = document.querySelector('input#musicName').value;
-     musicData.musicDuration = document.querySelector('input#musicDuration').value;
-
-     return musicData;
-
- }
-
+//TODO: Print no console, para cada índice da lista, os parâmetros
+//se a amostra está bom, aceitável ou inaceitável
+console.log(amostra)
+function checkHealth(){
+  if(amostra > 75) {
+  print(`Descartar da lista`);
+  }
+}
 
 
