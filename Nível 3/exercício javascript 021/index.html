@@ -19,19 +19,39 @@
 
             <div id="addMusicName">
                 <label for="">Música do cantor</label>
-                <input type="text" placeholder="Digite o nome da música" id="musicName">
+                <input type="text" placeholder="Digite o nome da música" id="name">
             </div>
 
             <div id="addMusicTime">
                 <label for="">Tempo da música</label>
-                <input type="text" placeholder="Digite a duração da música" id="musicDuration">
+                <input type="text" placeholder="Digite a duração da música" id="duration">
             </div>
 
             <button onclick ="addDataToArray()">Adicionar</button>
             <button onclick ="removeDataToObject()">Deletar</button>
         </div>
-    </div>
 
+        <div id="resultList">
+            <table border="2">
+                <tr>
+                    <td>Cantor</td>
+                    <td>Música</td>
+                    <td>duração</td>
+                </tr>
+                <tr>
+                    <td id="singerResult">singerResult</td>
+                    <td id="musicrResult">musicResult</td>
+                    <td id="durationResult">durationResult</td>
+                </tr>
+    
+    
+                
+              
+            </table>
+    
+        </div>
+    </div>
+    
     
     
 

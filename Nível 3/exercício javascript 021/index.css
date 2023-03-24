@@ -13,10 +13,16 @@ body{
     gap: 40px;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 #main{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 }
 
 #addSinger{
@@ -33,4 +39,9 @@ table{
 }
 .music{
     flex-grow: 2;
+}
+
+#resultList{
+    width: 100%;
+
 }
