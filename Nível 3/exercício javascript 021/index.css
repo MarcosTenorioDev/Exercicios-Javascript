@@ -12,7 +12,14 @@ body{
     height: 100vh;
     gap: 40px;
 }
+.list{
+    display: flex;
+    justify-content: space-between;
+}
 
+li{
+    list-style: none;
+}
 #content{
     display: flex;
     flex-direction: column;
@@ -25,10 +32,6 @@ body{
     gap: 10px;
 }
 
-#addSinger{
-    display: flex;
-    justify-content: space-between;
-}
 
 button{
     padding: 5px;
@@ -43,5 +46,8 @@ table{
 
 #resultList{
     width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
 
 }

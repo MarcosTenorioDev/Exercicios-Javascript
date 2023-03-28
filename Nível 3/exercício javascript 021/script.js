@@ -1,12 +1,15 @@
+let singerResult = document.querySelector('.singer');
+let musicResult = document.querySelector('.music');
+let durationResult = document.querySelector('.duration');
+
 let arrayMusic = [];
+
 class music{
-    id;
     singer;
     name;
     duration;
 
     constructor(singer, name, duration){
-      this.id;
       this.singer;
       this.name;
       this.duration;
@@ -19,16 +22,17 @@ class music{
     let music = readData();
      readData();
      addData(music);
-  
 
-     console.log(music)
-     console.log(arrayMusic)
-     
+    singerResult.innerHTML += `<li>${music.singer}</li>`;
+    musicResult.innerHTML += `<li>${music.name}</li>`;
+    durationResult.innerHTML += `<li>${music.duration}</li>`;
+    
+  console.log(arrayMusic)
 
  }
 
  function addData(music){
-     arrayMusic.push(music)
+    arrayMusic.push(music)
 
  }
 
@@ -41,14 +45,18 @@ class music{
   music.name = document.querySelector('input#name').value;
   music.duration = document.querySelector('input#duration').value;
 
+
   return music;
 
   
  }
 
- function result(){
-   let
+ function removeDataToObject(){
+  singerResult.innerHTML = ``;
+  musicResult.innerHTML = ``;
+  durationResult.innerHTML = ``;
  }
+
 
 
 
