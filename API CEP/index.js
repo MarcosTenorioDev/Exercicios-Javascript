@@ -7,7 +7,7 @@ const uf = document.getElementById('uf');
 
 cep.addEventListener("blur", (e) =>{
     let searchCep = cep.value.replace("-", "")
-   const options = {
+    const options = {
         method: 'GET',
         mode: 'cors',
         cache: 'default'
